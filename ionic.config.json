@@ -1,0 +1,7 @@
+{
+  "name": "winning-numbers",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
