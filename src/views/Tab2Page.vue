@@ -107,15 +107,15 @@ export default defineComponent({
         console.log(error);
       }
     },
-    prevPage() {
+   async prevPage() {
       if (this.page > 1) {
         this.page--;
-        this.getNumbers();
+        await this.getNumbers();
       }
     },
-    nextPage() {
+    async nextPage() {
       this.page++;
-      this.getNumbers();
+     await this.getNumbers();
     },
   },
 });
