@@ -95,7 +95,7 @@ export default defineComponent({
     },
 
    async searchWinnerNumber() {
-      await this.getNumbers(this.search)
+      await this.getNumbers()
     },
     async searchNumber(event: any) {
       try {
