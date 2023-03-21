@@ -1,0 +1,1 @@
+export const URL_API_URL = "https://api-winning-numbers-production.up.railway.app";
